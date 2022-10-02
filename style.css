@@ -1,0 +1,72 @@
+/*<==================================== Main ===================================>*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+
+  margin: 0;
+}
+
+#balls {
+
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  /*Aqui e especificado a família da font.*/
+  font-family: 'Inter', sans-serif;
+  font-size: 49px; /*Tamanho da font.*/
+  line-height: 56px; /* Aqui e especificada a altura da linha.*/
+  font-weight: normal; /*esse comando serve para especificar o pedo da font.*/
+
+  margin-bottom: 32px;
+}
+
+/* Aqui eu estou entrando dentro do "span" que por sua vez está dentro do "h1" e fazendo uma modificação no mesmo. */
+h1 span {
+  font-weight: bold;
+}
+
+p, footer {
+  color: #7D7987;
+
+  font-size: 14px;
+  line-height: 28px;
+}
+
+span {
+  color: #FF9900;
+}
+
+/*<==================================== Footer ===================================>*/
+
+footer {
+  margin-top: 72px;
+}
+
+footer a + a { /*Aqui ta dizendo pra pegar um "a" que anterior a ele tem uma outro "a".*/
+  margin-left: 28px; /*É aqui ta aplicando uma margin do lado esuerdo dele de 28*/
+}
+
+#line {
+  width: 568px; /*Essa e a largura.*/
+  height: 0px; /*Essa e a altura*/
+  
+  margin: 0 auto 8px; /*Aqui o espaçamento em cima ta zerado, nas laterais está automatico é imbaixo esta com "8px"*/
+  
+  border: 1px solid #ECEFF2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
